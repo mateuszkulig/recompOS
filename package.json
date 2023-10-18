@@ -1,0 +1,19 @@
+{
+  "name": "recompos",
+  "version": "0.1.0",
+  "description": "Custom shell running in web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateuszkulig/recompOS.git"
+  },
+  "author": "mateuszkulig",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/mateuszkulig/recompOS/issues"
+  },
+  "homepage": "https://github.com/mateuszkulig/recompOS#readme"
+}

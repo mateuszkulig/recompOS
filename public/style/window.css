@@ -1,0 +1,52 @@
+.window {
+    background-color:       #C0C7C8;
+    border-color:           #FFFFFF #87888F #87888F #FFFFFF;
+    border-width:           0.21vh;                 /* 1 / 480 */
+    border-style:           solid;
+    margin:                 0px;
+}
+
+.window-border {
+    background-color:       #C0C7C8;
+    margin:                 0px;
+    padding:                0px;
+    display:                flex;
+    align-items:            center;
+    justify-content:        center;
+    border-width:           0.21vh;                 /* 1 / 480 */
+    border-style:           solid;
+    border-color:           #C0C7C8 #000000 #000000 #C0C7C8;
+    position:               absolute;
+    top:                    100px;
+    left:                   100px;
+}
+
+.window-title {
+    background-color:       #0000A8;
+    height:                 1.98vh;                 /* 17 (+2 for style) / 480 halved for style */
+    margin:                 0.42vh;                 /* 2 / 480 */
+    font-family:            'VT323', monospace;
+    color:                  #FFFFFF;
+    padding-left:           0.31vw;                 /* 2 / 640 */
+    display:                flex;
+    justify-content:        space-between;
+}
+
+.close-icon {
+    background-color:       #C0C7C8;
+    width:                  0.94vw;                 /* 12 / 640 halved for style */
+    height:                 1.04vh;                 /* 10 / 480 halved for style */
+    border-width:           0.21vh;                 /* 1 / 480 */
+    border-style:           solid;
+    border-color:           #FFFFFF #87888F #87888F #FFFFFF;
+    padding:                0px;
+    margin:                 0.42vh 0.31vw 0vh 0vw;  /* 2 / 480  2 / 640 */  
+    font-size:              1.1vh;                  /* 6 / 480 halved and subtracted 0.15 for style */
+    color:                  #000000;
+    text-align:             center;
+}
+
+.content-space {
+    margin:                 0.42vh;                 /* 2 / 480 */
+    font-family:            'VT323', monospace;
+}

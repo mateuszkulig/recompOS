@@ -4,7 +4,8 @@
   "description": "Custom shell running in web",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsc --project tsconfig.json",
+    "start": "npx http-server build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/mateuszkulig/recompOS/issues"
   },
-  "homepage": "https://github.com/mateuszkulig/recompOS#readme"
+  "homepage": "https://github.com/mateuszkulig/recompOS#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "common.js": "^1.1.1",
+    "commonjs": "^0.0.1",
+    "express": "^4.18.2",
+    "light-server": "^2.9.1",
+    "mysql": "^2.18.1",
+    "typescript": "^5.2.2"
+  }
 }

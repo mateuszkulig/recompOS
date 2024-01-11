@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=VT323&display=swap');
+
+.desktop {
+    background-color:       #57A8A8;
+    width:                  100vw;
+    height:                 100vh;
+    margin:                 0px;
+    padding:                0px;
+    top:                    0vh;
+    position:               fixed;
+}
+
+.desktop-icon {
+    color:                  #FFFFFF;
+    display:                flex;
+    flex-direction:         column;
+    width:                  5vw;
+    margin:                 3vh 1vw;
+    align-items:            center;
+    font-family:            'VT323', monospace;
+}
+
+.desktop-icon-img {
+    height: 5vh;
+}
+
+.bar {
+    background-color:       #C0C7C8;
+    width:                  100vw;
+    height:                 5.63vh;             /* 27 / 480 */
+    padding:                0px;
+    margin:                 0px;
+    bottom:                 0vh;
+    position:               fixed;
+}
+
+.bar-separator-0 , .bar-separator-1 {
+    height:                 0.21vh;             /* 1 / 480 */
+    background-color:       #FFFFFF;
+}
+
+.bar-separator-0 {
+    background-color:       #C0C7C8;
+}
+
+.mm-button {
+    width:                  8.59vw;             /* 55 / 640 */
+    height:                 4.37vh;             /* 21 / 480 */ 
+    margin:                 0px;
+    padding:                0px;
+    background-color:       #C0C7C8;
+    border-radius:          0px;
+    border-width:           0.31vh 0.42vh;      /* 2 / 640 ; 2 / 480 */
+    border-color:           #FFFFFF #000000 #000000 #FFFFFF;
+    bottom:                 0.42vh;             /* 2 / 480 */
+    left:                   0.31vh;             /* 2 / 640 */
+    position:               fixed;
+    display:                flex;
+    flex-direction:         row;
+    justify-content:        center;
+    align-items:            center;
+}
+
+.mm-icon {
+    height:                 2.71vh;             /* 13 / 480 */
+    width:                  5vh;                /* more than above */
+}
+
+.mm-text {
+    font-size:              2.51vh;             /* 8 / 480 ; 1.5x as much because font is small */
+    font-family:            'VT323', monospace;
+}
